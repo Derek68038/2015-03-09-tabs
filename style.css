@@ -1,7 +1,7 @@
 body {
   background: firebrick;
   margin: 0;
-  padding: 0;
+  padding: 0;  
 }
 
 nav ul li {
@@ -10,7 +10,7 @@ nav ul li {
   border: 2px solid;
   padding: 7px;
   position: relative;
-  top: 20px;
+  top: 18px;
   background: gray;
 }
 
@@ -19,31 +19,17 @@ nav ul li {
 }
 
 .tab_content {
-  border: 2px solid;
-  position: absolute;
-  z-index: 1;
+  border: 2px solid;  
 }
 
 #about {
-  display: none;
+  display: block;
 }
 
 #concerts {
-  position: relative;
-  bottom: 506px;
   display: none;
 }
 
 #discography {
-  position: relative;
-  bottom: 937px;
-  display: none;
-}
-
-.active {
-  display: inline-block;
-}
-
-.inactive {
   display: none;
 }
